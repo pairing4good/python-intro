@@ -27,8 +27,8 @@ class AboutIntegers(unittest.TestCase):
         assert 6 - 3 == __
 
     def test_integers_comparisons(self):
-        assert (1 < 3) == __  # less than
-        assert (3 > 3) == __  # more than
-        assert (3 == 2) == __  # equality
-        assert (9 <= 3) == __  # less or equal than
-        assert (6 >= 3) == __  # more or equal than
+        assert (1 < 3) == __  # noqa
+        assert (3 > 3) == __  # noqa
+        assert (3 == 2) == __  # noqa
+        assert (9 <= 3) == __  # noqa
+        assert (6 >= 3) == __  # noqa
